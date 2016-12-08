@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D0940C1577FBA752C9194E /* Pods_FaceTime_KillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D7AAD2F4AC12115BBC6D0D /* Pods_FaceTime_KillerTests.framework */; };
+		5B2A880A1DF8480600133CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A88091DF8480600133CFF /* AppDelegate.swift */; };
+		5B2A880C1DF8480600133CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A880B1DF8480600133CFF /* Assets.xcassets */; };
+		5B2A880F1DF8480600133CFF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A880D1DF8480600133CFF /* MainMenu.xib */; };
+		5B2A881A1DF8480600133CFF /* FaceTime_KillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A88191DF8480600133CFF /* FaceTime_KillerTests.swift */; };
+		5B2A88251DF8480600133CFF /* FaceTime_KillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A88241DF8480600133CFF /* FaceTime_KillerUITests.swift */; };
+		5B2A88331DF84A0F00133CFF /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A88321DF84A0F00133CFF /* MenuController.swift */; };
+		5B2A88351DF84E5800133CFF /* Killer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A88341DF84E5800133CFF /* Killer.swift */; };
+		E1C5C094E5979C63C29580A8 /* Pods_FaceTime_Killer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E3FC372C01AEBBE1F58F74 /* Pods_FaceTime_Killer.framework */; };
+		FBAC3E9D5623887BAF023F30 /* Pods_FaceTime_KillerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43546770C0DDA52CD496B9DB /* Pods_FaceTime_KillerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B2A88161DF8480600133CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2A87FE1DF8480500133CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2A88051DF8480500133CFF;
+			remoteInfo = "FaceTime Killer";
+		};
+		5B2A88211DF8480600133CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2A87FE1DF8480500133CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2A88051DF8480500133CFF;
+			remoteInfo = "FaceTime Killer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256BA29EB0EF39C2AD370A73 /* Pods-FaceTime Killer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceTime Killer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceTime Killer/Pods-FaceTime Killer.debug.xcconfig"; sourceTree = "<group>"; };
+		43546770C0DDA52CD496B9DB /* Pods_FaceTime_KillerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceTime_KillerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527FAAFFF5340BC85C1E51B9 /* Pods-FaceTime KillerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceTime KillerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceTime KillerUITests/Pods-FaceTime KillerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B2A88061DF8480600133CFF /* FaceTime Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceTime Killer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2A88091DF8480600133CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B2A880B1DF8480600133CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B2A880E1DF8480600133CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5B2A88101DF8480600133CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2A88151DF8480600133CFF /* FaceTime KillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceTime KillerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2A88191DF8480600133CFF /* FaceTime_KillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTime_KillerTests.swift; sourceTree = "<group>"; };
+		5B2A881B1DF8480600133CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2A88201DF8480600133CFF /* FaceTime KillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceTime KillerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2A88241DF8480600133CFF /* FaceTime_KillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTime_KillerUITests.swift; sourceTree = "<group>"; };
+		5B2A88261DF8480600133CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2A88321DF84A0F00133CFF /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 0; };
+		5B2A88341DF84E5800133CFF /* Killer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Killer.swift; sourceTree = "<group>"; };
+		66D7AAD2F4AC12115BBC6D0D /* Pods_FaceTime_KillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceTime_KillerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E3FC372C01AEBBE1F58F74 /* Pods_FaceTime_Killer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceTime_Killer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C59CE7F19BBD2F398C83165 /* Pods-FaceTime KillerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceTime KillerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceTime KillerUITests/Pods-FaceTime KillerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C96F9A94D10562C8F5605BF /* Pods-FaceTime KillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceTime KillerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceTime KillerTests/Pods-FaceTime KillerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A0B87CFA558128BDA8313E /* Pods-FaceTime Killer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceTime Killer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceTime Killer/Pods-FaceTime Killer.release.xcconfig"; sourceTree = "<group>"; };
+		BD6A3647FE7D4225FEBD3A5B /* Pods-FaceTime KillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceTime KillerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceTime KillerTests/Pods-FaceTime KillerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2A88031DF8480500133CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C5C094E5979C63C29580A8 /* Pods_FaceTime_Killer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2A88121DF8480600133CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D0940C1577FBA752C9194E /* Pods_FaceTime_KillerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2A881D1DF8480600133CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAC3E9D5623887BAF023F30 /* Pods_FaceTime_KillerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2A87FD1DF8480500133CFF = {
+			isa = PBXGroup;
+			children = (
+				5B2A88081DF8480600133CFF /* FaceTime Killer */,
+				5B2A88181DF8480600133CFF /* FaceTime KillerTests */,
+				5B2A88231DF8480600133CFF /* FaceTime KillerUITests */,
+				5B2A88071DF8480600133CFF /* Products */,
+				FD73C89C4F97386BBE1C31BC /* Pods */,
+				DF2DDEEC71BBA0F4E035EEDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2A88071DF8480600133CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A88061DF8480600133CFF /* FaceTime Killer.app */,
+				5B2A88151DF8480600133CFF /* FaceTime KillerTests.xctest */,
+				5B2A88201DF8480600133CFF /* FaceTime KillerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2A88081DF8480600133CFF /* FaceTime Killer */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A88091DF8480600133CFF /* AppDelegate.swift */,
+				5B2A88321DF84A0F00133CFF /* MenuController.swift */,
+				5B2A880B1DF8480600133CFF /* Assets.xcassets */,
+				5B2A880D1DF8480600133CFF /* MainMenu.xib */,
+				5B2A88341DF84E5800133CFF /* Killer.swift */,
+				5B2A88101DF8480600133CFF /* Info.plist */,
+			);
+			path = "FaceTime Killer";
+			sourceTree = "<group>";
+		};
+		5B2A88181DF8480600133CFF /* FaceTime KillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A88191DF8480600133CFF /* FaceTime_KillerTests.swift */,
+				5B2A881B1DF8480600133CFF /* Info.plist */,
+			);
+			path = "FaceTime KillerTests";
+			sourceTree = "<group>";
+		};
+		5B2A88231DF8480600133CFF /* FaceTime KillerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A88241DF8480600133CFF /* FaceTime_KillerUITests.swift */,
+				5B2A88261DF8480600133CFF /* Info.plist */,
+			);
+			path = "FaceTime KillerUITests";
+			sourceTree = "<group>";
+		};
+		DF2DDEEC71BBA0F4E035EEDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82E3FC372C01AEBBE1F58F74 /* Pods_FaceTime_Killer.framework */,
+				66D7AAD2F4AC12115BBC6D0D /* Pods_FaceTime_KillerTests.framework */,
+				43546770C0DDA52CD496B9DB /* Pods_FaceTime_KillerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD73C89C4F97386BBE1C31BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				256BA29EB0EF39C2AD370A73 /* Pods-FaceTime Killer.debug.xcconfig */,
+				B9A0B87CFA558128BDA8313E /* Pods-FaceTime Killer.release.xcconfig */,
+				8C96F9A94D10562C8F5605BF /* Pods-FaceTime KillerTests.debug.xcconfig */,
+				BD6A3647FE7D4225FEBD3A5B /* Pods-FaceTime KillerTests.release.xcconfig */,
+				527FAAFFF5340BC85C1E51B9 /* Pods-FaceTime KillerUITests.debug.xcconfig */,
+				8C59CE7F19BBD2F398C83165 /* Pods-FaceTime KillerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2A88051DF8480500133CFF /* FaceTime Killer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2A88291DF8480600133CFF /* Build configuration list for PBXNativeTarget "FaceTime Killer" */;
+			buildPhases = (
+				7EA390DD029EB890D7689A94 /* [CP] Check Pods Manifest.lock */,
+				5B2A88021DF8480500133CFF /* Sources */,
+				5B2A88031DF8480500133CFF /* Frameworks */,
+				5B2A88041DF8480500133CFF /* Resources */,
+				2C3481A080052A26F10C9FEF /* [CP] Embed Pods Frameworks */,
+				781D1E0164C9C66CC7DFC1F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FaceTime Killer";
+			productName = "FaceTime Killer";
+			productReference = 5B2A88061DF8480600133CFF /* FaceTime Killer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B2A88141DF8480600133CFF /* FaceTime KillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2A882C1DF8480600133CFF /* Build configuration list for PBXNativeTarget "FaceTime KillerTests" */;
+			buildPhases = (
+				C07398001E11812398E8ACE7 /* [CP] Check Pods Manifest.lock */,
+				5B2A88111DF8480600133CFF /* Sources */,
+				5B2A88121DF8480600133CFF /* Frameworks */,
+				5B2A88131DF8480600133CFF /* Resources */,
+				34F2CCEB267F3FBC602DAE3F /* [CP] Embed Pods Frameworks */,
+				CB7F580A67AC1428FB471F97 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2A88171DF8480600133CFF /* PBXTargetDependency */,
+			);
+			name = "FaceTime KillerTests";
+			productName = "FaceTime KillerTests";
+			productReference = 5B2A88151DF8480600133CFF /* FaceTime KillerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B2A881F1DF8480600133CFF /* FaceTime KillerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2A882F1DF8480600133CFF /* Build configuration list for PBXNativeTarget "FaceTime KillerUITests" */;
+			buildPhases = (
+				77CE02652E560BF7EAB36A90 /* [CP] Check Pods Manifest.lock */,
+				5B2A881C1DF8480600133CFF /* Sources */,
+				5B2A881D1DF8480600133CFF /* Frameworks */,
+				5B2A881E1DF8480600133CFF /* Resources */,
+				AF881D23566D2F7EC5E6584E /* [CP] Embed Pods Frameworks */,
+				BB85BF1D2C98EB6AC0F05F12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2A88221DF8480600133CFF /* PBXTargetDependency */,
+			);
+			name = "FaceTime KillerUITests";
+			productName = "FaceTime KillerUITests";
+			productReference = 5B2A88201DF8480600133CFF /* FaceTime KillerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2A87FE1DF8480500133CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Adam Simpson";
+				TargetAttributes = {
+					5B2A88051DF8480500133CFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29W6748XVL;
+						ProvisioningStyle = Automatic;
+					};
+					5B2A88141DF8480600133CFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29W6748XVL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B2A88051DF8480500133CFF;
+					};
+					5B2A881F1DF8480600133CFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29W6748XVL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B2A88051DF8480500133CFF;
+					};
+				};
+			};
+			buildConfigurationList = 5B2A88011DF8480500133CFF /* Build configuration list for PBXProject "FaceTime Killer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B2A87FD1DF8480500133CFF;
+			productRefGroup = 5B2A88071DF8480600133CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2A88051DF8480500133CFF /* FaceTime Killer */,
+				5B2A88141DF8480600133CFF /* FaceTime KillerTests */,
+				5B2A881F1DF8480600133CFF /* FaceTime KillerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2A88041DF8480500133CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A880C1DF8480600133CFF /* Assets.xcassets in Resources */,
+				5B2A880F1DF8480600133CFF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2A88131DF8480600133CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2A881E1DF8480600133CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C3481A080052A26F10C9FEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceTime Killer/Pods-FaceTime Killer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F2CCEB267F3FBC602DAE3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceTime KillerTests/Pods-FaceTime KillerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77CE02652E560BF7EAB36A90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		781D1E0164C9C66CC7DFC1F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceTime Killer/Pods-FaceTime Killer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA390DD029EB890D7689A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF881D23566D2F7EC5E6584E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceTime KillerUITests/Pods-FaceTime KillerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB85BF1D2C98EB6AC0F05F12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceTime KillerUITests/Pods-FaceTime KillerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07398001E11812398E8ACE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7F580A67AC1428FB471F97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceTime KillerTests/Pods-FaceTime KillerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2A88021DF8480500133CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A88351DF84E5800133CFF /* Killer.swift in Sources */,
+				5B2A88331DF84A0F00133CFF /* MenuController.swift in Sources */,
+				5B2A880A1DF8480600133CFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2A88111DF8480600133CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A881A1DF8480600133CFF /* FaceTime_KillerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2A881C1DF8480600133CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A88251DF8480600133CFF /* FaceTime_KillerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B2A88171DF8480600133CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2A88051DF8480500133CFF /* FaceTime Killer */;
+			targetProxy = 5B2A88161DF8480600133CFF /* PBXContainerItemProxy */;
+		};
+		5B2A88221DF8480600133CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2A88051DF8480500133CFF /* FaceTime Killer */;
+			targetProxy = 5B2A88211DF8480600133CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B2A880D1DF8480600133CFF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2A880E1DF8480600133CFF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B2A88271DF8480600133CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B2A88281DF8480600133CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5B2A882A1DF8480600133CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256BA29EB0EF39C2AD370A73 /* Pods-FaceTime Killer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W6748XVL;
+				INFOPLIST_FILE = "FaceTime Killer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ams.FaceTime-Killer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B2A882B1DF8480600133CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A0B87CFA558128BDA8313E /* Pods-FaceTime Killer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W6748XVL;
+				INFOPLIST_FILE = "FaceTime Killer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ams.FaceTime-Killer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B2A882D1DF8480600133CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C96F9A94D10562C8F5605BF /* Pods-FaceTime KillerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W6748XVL;
+				INFOPLIST_FILE = "FaceTime KillerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ams.FaceTime-KillerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceTime Killer.app/Contents/MacOS/FaceTime Killer";
+			};
+			name = Debug;
+		};
+		5B2A882E1DF8480600133CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6A3647FE7D4225FEBD3A5B /* Pods-FaceTime KillerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W6748XVL;
+				INFOPLIST_FILE = "FaceTime KillerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ams.FaceTime-KillerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceTime Killer.app/Contents/MacOS/FaceTime Killer";
+			};
+			name = Release;
+		};
+		5B2A88301DF8480600133CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527FAAFFF5340BC85C1E51B9 /* Pods-FaceTime KillerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W6748XVL;
+				INFOPLIST_FILE = "FaceTime KillerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ams.FaceTime-KillerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FaceTime Killer";
+			};
+			name = Debug;
+		};
+		5B2A88311DF8480600133CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C59CE7F19BBD2F398C83165 /* Pods-FaceTime KillerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W6748XVL;
+				INFOPLIST_FILE = "FaceTime KillerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ams.FaceTime-KillerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FaceTime Killer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2A88011DF8480500133CFF /* Build configuration list for PBXProject "FaceTime Killer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2A88271DF8480600133CFF /* Debug */,
+				5B2A88281DF8480600133CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2A88291DF8480600133CFF /* Build configuration list for PBXNativeTarget "FaceTime Killer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2A882A1DF8480600133CFF /* Debug */,
+				5B2A882B1DF8480600133CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B2A882C1DF8480600133CFF /* Build configuration list for PBXNativeTarget "FaceTime KillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2A882D1DF8480600133CFF /* Debug */,
+				5B2A882E1DF8480600133CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B2A882F1DF8480600133CFF /* Build configuration list for PBXNativeTarget "FaceTime KillerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2A88301DF8480600133CFF /* Debug */,
+				5B2A88311DF8480600133CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2A87FE1DF8480500133CFF /* Project object */;
+}

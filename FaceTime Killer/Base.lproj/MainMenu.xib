@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="FaceTime_Killer" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="K6J-l2-PfZ" userLabel="MenuController" customClass="MenuController" customModule="FaceTime_Killer" customModuleProvider="target">
+            <connections>
+                <outlet property="statusMenu" destination="dxh-1Q-Emp" id="ysM-SV-cpe"/>
+            </connections>
+        </customObject>
+        <menu id="dxh-1Q-Emp">
+            <items>
+                <menuItem title="🔥Kill" id="TFb-sU-CS7">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="killClicked:" target="K6J-l2-PfZ" id="kTW-C4-Sb2"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="Qik-eU-b3j"/>
+                <menuItem title="🚫Quit" id="Bcd-bM-1JP">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="K6J-l2-PfZ" id="7rD-5g-rVv"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="37" y="-2"/>
+        </menu>
+    </objects>
+</document>

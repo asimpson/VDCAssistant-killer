@@ -1,0 +1,6 @@
+framework module Pods_FaceTime_KillerUITests {
+  umbrella header "Pods-FaceTime KillerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

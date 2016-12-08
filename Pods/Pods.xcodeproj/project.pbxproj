@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA0A17157E702C6FB0C38EC2921BC07 /* STPrivilegedTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 244D064555D654718F4323C704BFC0BD /* STPrivilegedTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A65DA1742BB60C67CB5B05F2D8A989 /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1B69862ACB4B12D7DFDB1F7AA1A0C /* STPrivilegedTask.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1B82FFF132DC14773C841110292C28B1 /* Pods-FaceTime Killer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A26C0FCC0BD7A69A24607BDCB3DE9FFE /* Pods-FaceTime Killer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22AA68EF47C27AEB9ADA507E5B9C16BD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */; };
+		446D435BFE573BF484449763C3385BB1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46113D3917711B20CB751285B6ECB0D6 /* Security.framework */; };
+		6B7D43234B4142638ADB0D89E07D825E /* Pods-FaceTime Killer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2E2AD3934DFEF02565CCA1F99B4AE5 /* Pods-FaceTime Killer-dummy.m */; };
+		6EB547539F12354170DAFECBF0906357 /* Pods-FaceTime KillerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 845DABE0543D092E4121F7F70C5F3789 /* Pods-FaceTime KillerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8496149E250A9E6AA6DC96D606B85CED /* STPrivilegedTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98534D535A189B78C1FCABF3C0675FFB /* STPrivilegedTask-dummy.m */; };
+		90D9C43431C98D2D2FCFD66B73D5E49E /* Pods-FaceTime KillerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5C5FE42DDDE5E847AC7F76D24C3F3E /* Pods-FaceTime KillerTests-dummy.m */; };
+		A72063F6B37C856A03BE03ECF9DB6462 /* STPrivilegedTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08266FC2759295FF1403A73E0010FDF0 /* STPrivilegedTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A843A0518654B7EEAFA1FE6A7A9BF3CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */; };
+		AB267C6646715A33878A7440DE99C19C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */; };
+		AD63BDE1A945DDE754DD81CFD2C4A0D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */; };
+		B49520CEEF84D954038A5CD6E01999A5 /* Pods-FaceTime KillerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD101D643EAFA42BBF72B8078CA5E4 /* Pods-FaceTime KillerUITests-dummy.m */; };
+		BF3B29FA80BA978E74D1B2BB36EF20FB /* Pods-FaceTime KillerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA309C6A74C9A1B72B10B19B4CD25DD6 /* Pods-FaceTime KillerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB66A0B39F551AEC9F470D18FA4EF837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDF5C4AFBB387DB55738208A8E069A8;
+			remoteInfo = STPrivilegedTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029452623E8B52C872F1958DD939C0DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08266FC2759295FF1403A73E0010FDF0 /* STPrivilegedTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STPrivilegedTask-umbrella.h"; sourceTree = "<group>"; };
+		0BCFE232DF0EAB682C92DA4B53929541 /* Pods-FaceTime KillerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceTime KillerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17141028606675F10BD154380539D9ED /* Pods-FaceTime KillerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceTime KillerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F2B6DAE5FCDEB1AD118C8271691D215 /* Pods-FaceTime Killer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceTime Killer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		244D064555D654718F4323C704BFC0BD /* STPrivilegedTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
+		2DA2ED459D9CB3084F335F7651E7C86C /* Pods-FaceTime KillerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceTime KillerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		309DEB4F54318BA943EA7A9534C34331 /* Pods-FaceTime Killer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceTime Killer-frameworks.sh"; sourceTree = "<group>"; };
+		46113D3917711B20CB751285B6ECB0D6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		50E97A8519D321C149369E90A205A8ED /* Pods-FaceTime KillerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceTime KillerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		567E30D20958B770AD266E4EE84E7BF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC8E1E7569BE7D914C6B7FFD2CE6E9B /* Pods-FaceTime KillerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FaceTime KillerUITests.modulemap"; sourceTree = "<group>"; };
+		5DD96BF0807B55909F02CA23F9BFEB97 /* Pods-FaceTime KillerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceTime KillerUITests-resources.sh"; sourceTree = "<group>"; };
+		5F795A4AC5125C2DD83A5A952F0A872B /* Pods-FaceTime KillerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceTime KillerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		600CFE93791AC16BD3D7A3DCE3D6142F /* Pods-FaceTime Killer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceTime Killer.debug.xcconfig"; sourceTree = "<group>"; };
+		69824B046F6FD27D6DA5372214CB90CF /* Pods-FaceTime KillerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceTime KillerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6B083C53A4CEC5E9080CA5B05835D5B5 /* Pods-FaceTime KillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceTime KillerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D5C5FE42DDDE5E847AC7F76D24C3F3E /* Pods-FaceTime KillerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceTime KillerTests-dummy.m"; sourceTree = "<group>"; };
+		7C675D507F2A677D7B381D91B57C7144 /* Pods_FaceTime_KillerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaceTime_KillerUITests.framework; path = "Pods-FaceTime KillerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBFBD8352581E431A853F086208B84E /* Pods_FaceTime_KillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaceTime_KillerTests.framework; path = "Pods-FaceTime KillerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DB01FB6E519D397C3D8D477AD79562 /* Pods-FaceTime Killer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceTime Killer-resources.sh"; sourceTree = "<group>"; };
+		845DABE0543D092E4121F7F70C5F3789 /* Pods-FaceTime KillerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceTime KillerUITests-umbrella.h"; sourceTree = "<group>"; };
+		89739C312CCDBDFB8ED94E2ABE13C78F /* Pods_FaceTime_Killer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaceTime_Killer.framework; path = "Pods-FaceTime Killer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C61A912AC4EA779F54249B0E7753BD /* Pods-FaceTime Killer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceTime Killer-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DD101D643EAFA42BBF72B8078CA5E4 /* Pods-FaceTime KillerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceTime KillerUITests-dummy.m"; sourceTree = "<group>"; };
+		98534D535A189B78C1FCABF3C0675FFB /* STPrivilegedTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STPrivilegedTask-dummy.m"; sourceTree = "<group>"; };
+		9A22677DBE27AB2E8B80BC7D5022E467 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC1B69862ACB4B12D7DFDB1F7AA1A0C /* STPrivilegedTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
+		9FAA5C2E30A221E43FEB1B38C7AEF603 /* Pods-FaceTime KillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceTime KillerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A26C0FCC0BD7A69A24607BDCB3DE9FFE /* Pods-FaceTime Killer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceTime Killer-umbrella.h"; sourceTree = "<group>"; };
+		B2139E2028ED79B0D193E30CC54F47B1 /* Pods-FaceTime KillerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceTime KillerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B476426783518D5CE3EDA15EA2B9BE45 /* STPrivilegedTask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STPrivilegedTask-prefix.pch"; sourceTree = "<group>"; };
+		C71F433ED6807669A31AB63F224DCEC8 /* Pods-FaceTime Killer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FaceTime Killer.modulemap"; sourceTree = "<group>"; };
+		CA309C6A74C9A1B72B10B19B4CD25DD6 /* Pods-FaceTime KillerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceTime KillerTests-umbrella.h"; sourceTree = "<group>"; };
+		D0A9DCFBAD04F4EBB0D8D5EB25DCA4FD /* Pods-FaceTime KillerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FaceTime KillerTests.modulemap"; sourceTree = "<group>"; };
+		D5BB11274E048E882E0E6739AC9385C0 /* STPrivilegedTask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STPrivilegedTask.xcconfig; sourceTree = "<group>"; };
+		E2AD6779ADB7CD94F32C0CD4A58DD7B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94B695FAE1E1FC671D31B0749DB8631 /* STPrivilegedTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STPrivilegedTask.framework; path = STPrivilegedTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3311C4F7608C2AF973540FCD7FA852E /* Pods-FaceTime KillerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceTime KillerTests-resources.sh"; sourceTree = "<group>"; };
+		F44E51CC18932F3D00B815A039BE81EF /* Pods-FaceTime KillerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceTime KillerTests-frameworks.sh"; sourceTree = "<group>"; };
+		F89E1A588549FB3271F763516C33E775 /* Pods-FaceTime Killer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceTime Killer.release.xcconfig"; sourceTree = "<group>"; };
+		F9AF74C1035A8145CE36710BBA313776 /* STPrivilegedTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = STPrivilegedTask.modulemap; sourceTree = "<group>"; };
+		FA2E2AD3934DFEF02565CCA1F99B4AE5 /* Pods-FaceTime Killer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceTime Killer-dummy.m"; sourceTree = "<group>"; };
+		FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB37B23900AD494601449E95A0033EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AA68EF47C27AEB9ADA507E5B9C16BD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9FB8F37DFB1B3CEFD338459C1AAADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD63BDE1A945DDE754DD81CFD2C4A0D0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DEC6CE5CFBA9A6F4F500654CCE9DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB267C6646715A33878A7440DE99C19C /* Cocoa.framework in Frameworks */,
+				446D435BFE573BF484449763C3385BB1 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F37EFD9E6D218449B98A321335AB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A843A0518654B7EEAFA1FE6A7A9BF3CE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B72B4A701DFDB00FC76186A4B81C09 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */,
+				46113D3917711B20CB751285B6ECB0D6 /* Security.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		2B6D4559427973796C2D49D639302DFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				567E30D20958B770AD266E4EE84E7BF1 /* Info.plist */,
+				F9AF74C1035A8145CE36710BBA313776 /* STPrivilegedTask.modulemap */,
+				D5BB11274E048E882E0E6739AC9385C0 /* STPrivilegedTask.xcconfig */,
+				98534D535A189B78C1FCABF3C0675FFB /* STPrivilegedTask-dummy.m */,
+				B476426783518D5CE3EDA15EA2B9BE45 /* STPrivilegedTask-prefix.pch */,
+				08266FC2759295FF1403A73E0010FDF0 /* STPrivilegedTask-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/STPrivilegedTask";
+			sourceTree = "<group>";
+		};
+		3A36BF82FBEF84F79F08E246EB9B15EB /* Pods-FaceTime KillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A22677DBE27AB2E8B80BC7D5022E467 /* Info.plist */,
+				D0A9DCFBAD04F4EBB0D8D5EB25DCA4FD /* Pods-FaceTime KillerTests.modulemap */,
+				50E97A8519D321C149369E90A205A8ED /* Pods-FaceTime KillerTests-acknowledgements.markdown */,
+				5F795A4AC5125C2DD83A5A952F0A872B /* Pods-FaceTime KillerTests-acknowledgements.plist */,
+				6D5C5FE42DDDE5E847AC7F76D24C3F3E /* Pods-FaceTime KillerTests-dummy.m */,
+				F44E51CC18932F3D00B815A039BE81EF /* Pods-FaceTime KillerTests-frameworks.sh */,
+				F3311C4F7608C2AF973540FCD7FA852E /* Pods-FaceTime KillerTests-resources.sh */,
+				CA309C6A74C9A1B72B10B19B4CD25DD6 /* Pods-FaceTime KillerTests-umbrella.h */,
+				6B083C53A4CEC5E9080CA5B05835D5B5 /* Pods-FaceTime KillerTests.debug.xcconfig */,
+				9FAA5C2E30A221E43FEB1B38C7AEF603 /* Pods-FaceTime KillerTests.release.xcconfig */,
+			);
+			name = "Pods-FaceTime KillerTests";
+			path = "Target Support Files/Pods-FaceTime KillerTests";
+			sourceTree = "<group>";
+		};
+		5272A07A4011B520D53CF30993C742B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC9E59102EB7583D322EA5076F9D9E71 /* STPrivilegedTask */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		714614B5DB81F06A9C429129B905A93C /* Pods-FaceTime KillerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				029452623E8B52C872F1958DD939C0DC /* Info.plist */,
+				5AC8E1E7569BE7D914C6B7FFD2CE6E9B /* Pods-FaceTime KillerUITests.modulemap */,
+				2DA2ED459D9CB3084F335F7651E7C86C /* Pods-FaceTime KillerUITests-acknowledgements.markdown */,
+				B2139E2028ED79B0D193E30CC54F47B1 /* Pods-FaceTime KillerUITests-acknowledgements.plist */,
+				94DD101D643EAFA42BBF72B8078CA5E4 /* Pods-FaceTime KillerUITests-dummy.m */,
+				69824B046F6FD27D6DA5372214CB90CF /* Pods-FaceTime KillerUITests-frameworks.sh */,
+				5DD96BF0807B55909F02CA23F9BFEB97 /* Pods-FaceTime KillerUITests-resources.sh */,
+				845DABE0543D092E4121F7F70C5F3789 /* Pods-FaceTime KillerUITests-umbrella.h */,
+				17141028606675F10BD154380539D9ED /* Pods-FaceTime KillerUITests.debug.xcconfig */,
+				0BCFE232DF0EAB682C92DA4B53929541 /* Pods-FaceTime KillerUITests.release.xcconfig */,
+			);
+			name = "Pods-FaceTime KillerUITests";
+			path = "Target Support Files/Pods-FaceTime KillerUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
+				5272A07A4011B520D53CF30993C742B3 /* Pods */,
+				BC1FBFD2DAA2212E18CD6F8F67114E25 /* Products */,
+				92BBB778881C9E63A4533CD92ABC3CBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92BBB778881C9E63A4533CD92ABC3CBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06425ECFDC3114771EE71D3E035CEE9 /* Pods-FaceTime Killer */,
+				3A36BF82FBEF84F79F08E246EB9B15EB /* Pods-FaceTime KillerTests */,
+				714614B5DB81F06A9C429129B905A93C /* Pods-FaceTime KillerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC9E59102EB7583D322EA5076F9D9E71 /* STPrivilegedTask */ = {
+			isa = PBXGroup;
+			children = (
+				244D064555D654718F4323C704BFC0BD /* STPrivilegedTask.h */,
+				9BC1B69862ACB4B12D7DFDB1F7AA1A0C /* STPrivilegedTask.m */,
+				2B6D4559427973796C2D49D639302DFE /* Support Files */,
+			);
+			name = STPrivilegedTask;
+			path = STPrivilegedTask;
+			sourceTree = "<group>";
+		};
+		BC1FBFD2DAA2212E18CD6F8F67114E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89739C312CCDBDFB8ED94E2ABE13C78F /* Pods_FaceTime_Killer.framework */,
+				7CBFBD8352581E431A853F086208B84E /* Pods_FaceTime_KillerTests.framework */,
+				7C675D507F2A677D7B381D91B57C7144 /* Pods_FaceTime_KillerUITests.framework */,
+				E94B695FAE1E1FC671D31B0749DB8631 /* STPrivilegedTask.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B72B4A701DFDB00FC76186A4B81C09 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F06425ECFDC3114771EE71D3E035CEE9 /* Pods-FaceTime Killer */ = {
+			isa = PBXGroup;
+			children = (
+				E2AD6779ADB7CD94F32C0CD4A58DD7B2 /* Info.plist */,
+				C71F433ED6807669A31AB63F224DCEC8 /* Pods-FaceTime Killer.modulemap */,
+				1F2B6DAE5FCDEB1AD118C8271691D215 /* Pods-FaceTime Killer-acknowledgements.markdown */,
+				89C61A912AC4EA779F54249B0E7753BD /* Pods-FaceTime Killer-acknowledgements.plist */,
+				FA2E2AD3934DFEF02565CCA1F99B4AE5 /* Pods-FaceTime Killer-dummy.m */,
+				309DEB4F54318BA943EA7A9534C34331 /* Pods-FaceTime Killer-frameworks.sh */,
+				81DB01FB6E519D397C3D8D477AD79562 /* Pods-FaceTime Killer-resources.sh */,
+				A26C0FCC0BD7A69A24607BDCB3DE9FFE /* Pods-FaceTime Killer-umbrella.h */,
+				600CFE93791AC16BD3D7A3DCE3D6142F /* Pods-FaceTime Killer.debug.xcconfig */,
+				F89E1A588549FB3271F763516C33E775 /* Pods-FaceTime Killer.release.xcconfig */,
+			);
+			name = "Pods-FaceTime Killer";
+			path = "Target Support Files/Pods-FaceTime Killer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33B1ED3C72634ACE3162F118EFA056AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3B29FA80BA978E74D1B2BB36EF20FB /* Pods-FaceTime KillerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8FA8289A7F64A3F15E791BCE8D59B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72063F6B37C856A03BE03ECF9DB6462 /* STPrivilegedTask-umbrella.h in Headers */,
+				0AA0A17157E702C6FB0C38EC2921BC07 /* STPrivilegedTask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A56575968E0F0EE9DFAC5E08B8AF9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB547539F12354170DAFECBF0906357 /* Pods-FaceTime KillerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FED3B5D8440A4AC6DFF9B6855BFF9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B82FFF132DC14773C841110292C28B1 /* Pods-FaceTime Killer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		049B8FCF95BEBB1634895D87B6DD4322 /* Pods-FaceTime KillerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C712E94EF1A7E4F9FE15D76352881869 /* Build configuration list for PBXNativeTarget "Pods-FaceTime KillerUITests" */;
+			buildPhases = (
+				A6FD20471403122DD982EA36EB6F713C /* Sources */,
+				89F37EFD9E6D218449B98A321335AB93 /* Frameworks */,
+				65A56575968E0F0EE9DFAC5E08B8AF9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FaceTime KillerUITests";
+			productName = "Pods-FaceTime KillerUITests";
+			productReference = 7C675D507F2A677D7B381D91B57C7144 /* Pods_FaceTime_KillerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		12ABB2144FCFF726E0577F12A3A109E6 /* Pods-FaceTime KillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D5A42F14E906F07A97462E8AE5CEF80 /* Build configuration list for PBXNativeTarget "Pods-FaceTime KillerTests" */;
+			buildPhases = (
+				05EA345D4C5105201C53A8DEC399DFFB /* Sources */,
+				2EB37B23900AD494601449E95A0033EB /* Frameworks */,
+				33B1ED3C72634ACE3162F118EFA056AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FaceTime KillerTests";
+			productName = "Pods-FaceTime KillerTests";
+			productReference = 7CBFBD8352581E431A853F086208B84E /* Pods_FaceTime_KillerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C12C480BBC66BF29E116FD9B53BC7E1 /* Pods-FaceTime Killer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADC3EE2FC6DF73C4222FD69455D866F /* Build configuration list for PBXNativeTarget "Pods-FaceTime Killer" */;
+			buildPhases = (
+				D82E0957D30C910C62E1655E85BA4512 /* Sources */,
+				4D9FB8F37DFB1B3CEFD338459C1AAADB /* Frameworks */,
+				F5FED3B5D8440A4AC6DFF9B6855BFF9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68AD9FA7E744FFBB07EC3EC042F19D66 /* PBXTargetDependency */,
+			);
+			name = "Pods-FaceTime Killer";
+			productName = "Pods-FaceTime Killer";
+			productReference = 89739C312CCDBDFB8ED94E2ABE13C78F /* Pods_FaceTime_Killer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBDF5C4AFBB387DB55738208A8E069A8 /* STPrivilegedTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D30DE7B64E76655E49FE594F90D1CF2 /* Build configuration list for PBXNativeTarget "STPrivilegedTask" */;
+			buildPhases = (
+				2FDCC611C7F9AFD915DBE82CC72B3962 /* Sources */,
+				89DEC6CE5CFBA9A6F4F500654CCE9DF0 /* Frameworks */,
+				3D8FA8289A7F64A3F15E791BCE8D59B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STPrivilegedTask;
+			productName = STPrivilegedTask;
+			productReference = E94B695FAE1E1FC671D31B0749DB8631 /* STPrivilegedTask.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BC1FBFD2DAA2212E18CD6F8F67114E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C12C480BBC66BF29E116FD9B53BC7E1 /* Pods-FaceTime Killer */,
+				12ABB2144FCFF726E0577F12A3A109E6 /* Pods-FaceTime KillerTests */,
+				049B8FCF95BEBB1634895D87B6DD4322 /* Pods-FaceTime KillerUITests */,
+				BBDF5C4AFBB387DB55738208A8E069A8 /* STPrivilegedTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05EA345D4C5105201C53A8DEC399DFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D9C43431C98D2D2FCFD66B73D5E49E /* Pods-FaceTime KillerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDCC611C7F9AFD915DBE82CC72B3962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496149E250A9E6AA6DC96D606B85CED /* STPrivilegedTask-dummy.m in Sources */,
+				17A65DA1742BB60C67CB5B05F2D8A989 /* STPrivilegedTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FD20471403122DD982EA36EB6F713C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49520CEEF84D954038A5CD6E01999A5 /* Pods-FaceTime KillerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82E0957D30C910C62E1655E85BA4512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7D43234B4142638ADB0D89E07D825E /* Pods-FaceTime Killer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68AD9FA7E744FFBB07EC3EC042F19D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STPrivilegedTask;
+			target = BBDF5C4AFBB387DB55738208A8E069A8 /* STPrivilegedTask */;
+			targetProxy = BB66A0B39F551AEC9F470D18FA4EF837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		292BFFDDFBE31ADD51864FB8DC3623FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCFE232DF0EAB682C92DA4B53929541 /* Pods-FaceTime KillerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceTime KillerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceTime KillerUITests/Pods-FaceTime KillerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceTime_KillerUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34342BBF37D3A9ED85FF2EB654934920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		54BC487F5A5D706AC1E64A6D308F9DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B083C53A4CEC5E9080CA5B05835D5B5 /* Pods-FaceTime KillerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceTime KillerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceTime KillerTests/Pods-FaceTime KillerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceTime_KillerTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58C8A12C8E3C6D151AF7F7C4C9DA6482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5BB11274E048E882E0E6739AC9385C0 /* STPrivilegedTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STPrivilegedTask/STPrivilegedTask-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STPrivilegedTask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/STPrivilegedTask/STPrivilegedTask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = STPrivilegedTask;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6278B8F05D481738F1EF43A6164B5A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600CFE93791AC16BD3D7A3DCE3D6142F /* Pods-FaceTime Killer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceTime Killer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceTime Killer/Pods-FaceTime Killer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceTime_Killer;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73C791CB7C70493A0731093B20E0996A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89E1A588549FB3271F763516C33E775 /* Pods-FaceTime Killer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceTime Killer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceTime Killer/Pods-FaceTime Killer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceTime_Killer;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7807C9F847C549DF694704892AA155AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAA5C2E30A221E43FEB1B38C7AEF603 /* Pods-FaceTime KillerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceTime KillerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceTime KillerTests/Pods-FaceTime KillerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceTime_KillerTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E99F43C1258C2DC06DAACBDAA0E0134D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5BB11274E048E882E0E6739AC9385C0 /* STPrivilegedTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STPrivilegedTask/STPrivilegedTask-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STPrivilegedTask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/STPrivilegedTask/STPrivilegedTask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = STPrivilegedTask;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6FC88CB717F413199C282718D2DC09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEFBF89C223484ED04451881F2ECAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17141028606675F10BD154380539D9ED /* Pods-FaceTime KillerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceTime KillerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceTime KillerUITests/Pods-FaceTime KillerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceTime_KillerUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34342BBF37D3A9ED85FF2EB654934920 /* Debug */,
+				F6FC88CB717F413199C282718D2DC09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D30DE7B64E76655E49FE594F90D1CF2 /* Build configuration list for PBXNativeTarget "STPrivilegedTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99F43C1258C2DC06DAACBDAA0E0134D /* Debug */,
+				58C8A12C8E3C6D151AF7F7C4C9DA6482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D5A42F14E906F07A97462E8AE5CEF80 /* Build configuration list for PBXNativeTarget "Pods-FaceTime KillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BC487F5A5D706AC1E64A6D308F9DA6 /* Debug */,
+				7807C9F847C549DF694704892AA155AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADC3EE2FC6DF73C4222FD69455D866F /* Build configuration list for PBXNativeTarget "Pods-FaceTime Killer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6278B8F05D481738F1EF43A6164B5A20 /* Debug */,
+				73C791CB7C70493A0731093B20E0996A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C712E94EF1A7E4F9FE15D76352881869 /* Build configuration list for PBXNativeTarget "Pods-FaceTime KillerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFBF89C223484ED04451881F2ECAE0F /* Debug */,
+				292BFFDDFBE31ADD51864FB8DC3623FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

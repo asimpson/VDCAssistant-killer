@@ -1,0 +1,6 @@
+framework module Pods_FaceTime_Killer {
+  umbrella header "Pods-FaceTime Killer-umbrella.h"
+
+  export *
+  module * { export * }
+}
