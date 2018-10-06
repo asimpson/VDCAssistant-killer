@@ -10,7 +10,7 @@ import Foundation
 
 class Killer {
     func killFacetime() {
-        NSAppleScript(source: "do shell script \"sudo killall VDCAssistant\" with administrator " +
+        NSAppleScript(source: "do shell script \"sudo killall VDCAssistant && sudo killall coreaudiod \" with administrator " +
             "privileges")!.executeAndReturnError(nil)
     }
 }
